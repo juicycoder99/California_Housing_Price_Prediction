@@ -1,18 +1,13 @@
-# Programming Languages for Data Analysis (CS504) — Assignment 1
-
-Coursework for **Programming Languages for Data Analysis (CS504)**, Department of Computer Science,
-Bishop's University.
-
-## Linear regression in Python and R — California Housing
+# California Housing Price Prediction
 
 Implementing the same linear-regression workflow in **two languages** to compare the process and
 the results. The goal is to predict the median house value (`MedHouseVal`) of California districts
 from eight socioeconomic and geographic features.
 
-- Python notebook: [`Assignment_1_Python.ipynb`](Assignment_1_Python.ipynb) (pandas, scikit-learn, matplotlib)
-- R notebook: [`Assignment_1_R.ipynb`](Assignment_1_R.ipynb) (dplyr, caret, ggplot2)
+- Python notebook: [`housing_price_regression_python.ipynb`](housing_price_regression_python.ipynb) (pandas, scikit-learn, matplotlib)
+- R notebook: [`housing_price_regression_r.ipynb`](housing_price_regression_r.ipynb) (dplyr, caret, ggplot2)
 
-## Tasks (both notebooks)
+## Workflow (both notebooks)
 
 1. Import libraries.
 2. Load the California Housing dataset.
@@ -52,7 +47,7 @@ Open either notebook with the matching Jupyter kernel.
 
 | File | Description |
 |------|-------------|
-| `Assignment_1_Python.ipynb` | Python solution |
-| `Assignment_1_R.ipynb` | R solution |
+| `housing_price_regression_python.ipynb` | Full Python implementation and analysis |
+| `housing_price_regression_r.ipynb` | Full R implementation and analysis |
 | `california_housing.csv` | Dataset (exported from scikit-learn; used by the R notebook) |
-| `HW1.pdf` | Assignment description |
+| `PROJECT_BRIEF.pdf` | Project brief (goals, objectives, outcomes) |
